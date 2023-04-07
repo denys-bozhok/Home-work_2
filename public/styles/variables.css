@@ -1,0 +1,21 @@
+:root {
+
+    /*BACKGROUNDS*/
+    --primary-bg : background linear-gradient(darkgray 10%, greenyellow, transparent);
+    --secondary-bg : background linear-gradient(black, transparent);
+    --footer-bg : background linear-gradient(gray, transparent);
+    --primary_color : deeppink;
+    --second-font-color : color greenyellow;
+    --third-font-color : color magenta;
+
+    /*MARGINS*/
+
+    /*PADDINGS*/
+    --primary-padding : 3rem;
+    --secondary-padding : 1rem;
+
+    /*FONT-FAMILY*/
+    --primary-font-famyly : "Coolvetica";
+    --secondary-font : "Nasalization";
+
+}

@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "Unisans";
+    src: url("../fonts/unisans/uni-sans.heavy-caps.otf");
+}
+@font-face {
+    font-family: "Nasalization";
+    src: url("../fonts/nasalization/nasalization-rg.otf");
+}
+@font-face {
+    font-family: "Coolvetica";
+    src: url("../fonts/coolvetica/coolvetica_rg.otf");
+    /*src: url("../fonts/coolvetica/coolvetica_condensed_rg.otf");*/
+    /*src: url("../fonts/coolvetica/coolvetica_crammed_rg.otf");*/
+}
+
+/* ID -> class -> tag */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    background: var(--primary-bg);
+    font-family: "Coolvetica", serif;
+    color: var(--primary_color);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    margin-bottom: 2rem;
+}
+/*HEADER*/
+.header, .nav, .footer,.gallery__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.slider__button, .decoration__interest {
+    border-radius: 50%;
+    border: none;
+}
+
+.main__logo {
+    width: 10rem;
+}
+
+.nav, .input,.footers__link {
+    color: greenyellow;
+}
+
+.carousel, .photo__1,.photo__2, .photo__3, .photo__4, .photo__5, .photo__6 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo__1,.photo__2, .photo__3, .photo__4, .photo__5, .photo__6{
+    width: 45%;
+    height: 40rem;
+    box-shadow: magenta 0 0 2rem;
+    margin: 3rem;
+    border-radius: 20%;
+}
+
+.header {
+    background: linear-gradient(black, transparent);
+    align-items: center;
+}
+
+.input {
+    width: 15rem;
+    padding: .3rem 2rem;
+    border: none;
+    border-bottom: 2px solid crimson;
+    border-radius: 20%;
+    background: inherit;
+    font-size: 1.2rem;
+    font-family: "Nasalization", serif;
+}
+
+.footer,.nav {
+    text-transform: uppercase;
+    font-family: "Unisans", fantasy;
+    text-align: center;
+}
+
+.nav {
+    width: 25%;
+}
+
+.carousel {
+    height: 50rem;
+    background-image: url("../images/carousel/stalker.jpg");
+    width: 100%;
+}
+
+.carousel__slider {
+    position: relative;
+    top: -3rem;
+    left: 49%;
+}
+
+.slider__button {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-left: .8rem;
+    background: yellowgreen;
+    box-shadow: orange 0 0 1rem;
+}
+
+
+/*.carousel::before {*/
+/*    background-image: url("../images/carousel/stalker.jpg");*/
+/*}*/
+/*.carousel::after {*/
+/*    background-image: url("../images/carousel/hunt_showdown.jpg");*/
+/*}*/
+
+
+.container {
+
+}
+
+.sidebar {
+
+}
+
+/*MAIN*/
+.main {
+    text-shadow: grey 0 2px 3px;
+}
+
+.blog {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+.interests__title, .blog__title, .photo_gallery {
+    font-size: 3rem;
+    color: orange;
+    padding-bottom: 5rem;
+    text-align: center;
+    font-family: Nasalization, serif;
+}
+
+.biography, .interests {
+    text-align: justify;
+    font-size: 2rem;
+    padding-bottom: 8rem;
+}
+
+.decoration__interest {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid deeppink;
+    background: inherit;
+    box-shadow: deeppink 0 0 .8rem;
+    margin-right: 2rem;
+}
+
+.interests__list {
+    text-align: center;
+}
+
+.photo__1 {
+    background-image: url("../images/gallery/0.jpg");
+}
+.photo__2 {
+    background-image: url("../images/gallery/1.jpg");
+}
+.photo__3 {
+    background-image: url("../images/gallery/2.jpg");
+}
+.photo__4 {
+    background-image: url("../images/gallery/3.jpg");
+}
+.photo__5 {
+    background-image: url("../images/gallery/4.jpg");
+}
+.photo__6 {
+    background-image: url("../images/gallery/5.jpg");
+}
+
+/*FOOTER*/
+.footer {
+    background: linear-gradient(gray, transparent);
+    font-family: Coolvetica, serif;
+    text-shadow: black 0 1px 1px;
+    font-size: 2rem;
+    color: magenta;
+}
+
+.google__map,.footers__link {
+    display: block;
+    margin-top: 1rem;
+}
+.map {
+    text-align: left;
+}
+
+.social_networks {
+    text-align: right;
+    font-size: 1.5rem;
+}
